@@ -1,0 +1,11 @@
+.articles {
+    padding: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+
+    & > * {
+        flex: 25%;
+    }
+}
